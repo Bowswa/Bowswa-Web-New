@@ -90,7 +90,6 @@ body {
 
 p {
     font-size: 10px;
-    /* font-weight: bold; */
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 3px;
     color: white;
@@ -202,7 +201,6 @@ button {
     align-items: center;
     padding: 0 10px;
     margin: 50px 0 0 0;
-    /* position: fixed; */
     top: 0;
 }
 
@@ -250,24 +248,6 @@ body {
     height: 100%;
     overflow: scroll;
 }
-
-
-/* custom scroll bar */
-
-
-/* 
-   ::-webkit-scrollbar {
-      width: 10px;
-  }
-  
-   ::-webkit-scrollbar-track {
-      background: transparent;
-  }
-  
-   ::-webkit-scrollbar-thumb {
-      background: #4400ff;
-      border-radius: 20px;
-  } At the moment, this feature is severely broken!*/
 
 body {
     background-color: #021027;

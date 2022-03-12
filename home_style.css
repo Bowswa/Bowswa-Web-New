@@ -90,7 +90,6 @@ body {
 
 p {
     font-size: 25px;
-    /* font-weight: bold; */
     padding: 100px;
 }
 
@@ -126,18 +125,6 @@ a {
         text-align: center;
     }
 }
-
-
-/* 
-        
-        .panel {
-            background-color: inherit;
-            border-radius: 10px;
-            overflow: hidden;
-            width: 50%;
-            font-size: 20px;
-            transition: max-height 0.2s ease-out;
-        }*/
 
 .accordion {
     background-color: inherit;
@@ -198,7 +185,6 @@ a {
     align-items: center;
     padding: 0 10px;
     margin: 50px 0 0 0;
-    /* position: fixed; */
     top: 0;
 }
 
@@ -247,24 +233,6 @@ body {
     overflow: scroll;
     overflow-x: hidden;
 }
-
-
-/* custom scroll bar */
-
-
-/* 
-   ::-webkit-scrollbar {
-      width: 10px;
-  }
-  
-   ::-webkit-scrollbar-track {
-      background: transparent;
-  }
-  
-   ::-webkit-scrollbar-thumb {
-      background: #4400ff;
-      border-radius: 20px;
-  } At the moment, this feature is severely broken!*/
 
 body {
     background-color: #021027;

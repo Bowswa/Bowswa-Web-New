@@ -3,7 +3,7 @@ function oneSixteenPacks() {
         '<button class="accordion">Afk Display V1.1.1<span class="right-plus">+</span></button>' +
         '<div class="panel">' +
         'Afk Display V1.1.0 is a vanilla tweaks datapack. I added a small feature that i plan on expanding upon and have' +
-        'released it in this update.<br>' +
+        ' released it in this update.<br>' +
         '<a href="downloads/afk display v1.1.1 - 1.16.zip" download>Download Here!</a>' +
         '</div>';
     document.getElementById("middleContent").innerHTML = sixteenContent;
@@ -18,14 +18,14 @@ function oneSeventeenPacks() {
         '<button class="accordion">Loot Boxes Gen3<span class="right-plus">+</span></button>' +
         '<div class="panel">' +
         'Loot Boxes Datapack adds a drop to fishing, mob kills, and more that generates random loot. Genetation Three' +
-        'is the latest version. Generation Two was never released due to many bugs & other issues.' +
+        'is the latest version. Generation Two was never released due to many bugs & other issues.<br>' +
         '<a href="downloads/1.17/[1.17.x]Generation Three Vanilla+ Loot Boxes.zip" download>Download Here!</a>' +
         '</div>' +
         '<br><br>' +
         '<button class="accordion">Afk Display V1.1.1<span class="right-plus">+</span></button>' +
         '<div class="panel">' +
         'Afk Display V1.1.0 is a vanilla tweaks datapack. I added a small feature that i plan on expanding upon and have' +
-        'released it in this update.<br>' +
+        ' released it in this update.<br>' +
         '<a href="datapacks/afk display v1.1.1 - 1.17.zip" download>Download Here!</a>' +
         '</div>';
     document.getElementById("middleContent").innerHTML = seventeenContent;
@@ -40,7 +40,7 @@ function oneEighteenPacks() {
     '<button class="accordion">Loot Boxes Gen3<span class="right-plus">+</span></button>' +
     '<div class="panel">' +
     'Loot Boxes Datapack adds a drop to fishing, mob kills, and more that generates random loot. Genetation Three' +
-    'is the latest version. Generation Two was never released due to many bugs & other issues.' +
+    'is the latest version. Generation Two was never released due to many bugs & other issues.<br>' +
     '<a href="downloads/1.17/[1.17.x]Generation Three Vanilla+ Loot Boxes.zip" download>Download Here!</a>' +
     '</div>' +
     '<br><br>' +

@@ -19,6 +19,10 @@ Game.Launch = function() {
 
 }
 
+Game.CreateScreen=
+  '<span id="version">Version:' + VERSION + betaStr + '</span>' + 
+  '<div id="welcome">' + Game.Welcome + '</div>';
+
 Game.Changelog=
   '<span class="close"><button onclick="clearMid()">&times;</button></span>' +
   '<p class="warning">Please report any bugs in the <a href="https://discord.gg/RqSwaQTZn4" target="_blank">Discord.</a></p>' +
@@ -87,9 +91,7 @@ Game.RunIt = function() {
 
   if (Game.Beta >= 1) betaStr = 'BETA';
   else betaStr = '';
-  Game.elmID('gameSpace').innerHTML = 
-  '<span id="version">Version:' + VERSION + betaStr + '</span>' + 
-  '<div id="welcome">' + Game.Welcome + '</div>';
+  Game.elmID('gameSpace').innerHTML = Game.CreateScreen;
 }
 
 window.onload = Game.RunIt();

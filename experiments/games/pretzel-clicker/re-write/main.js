@@ -6,18 +6,18 @@ var VERSION = 0.009;
 var BETA = 0;
 
 /*
+    Game Initialization
+*/
+
+var Game={};
+
+/*
     Misc. Helper Functions
 */
 
 Game.elmID = function(id) {return document.getElementById(id);}
 
 Game.Choose = function(arr) {return arr[Math.floor(Math.random()*arr.length)];}
-
-/*
-    Game Initialization
-*/
-
-var Game={};
 
 /*
     Game Launch

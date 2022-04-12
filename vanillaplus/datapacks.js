@@ -55,6 +55,7 @@ function oneSixteenPacks() {
   document.getElementById("v1.16").setAttribute('class', 'open');
   document.getElementById("v1.17").setAttribute('class', 'disabled');
   document.getElementById("v1.18").setAttribute('class', 'disabled');
+  document.getElementById("v1.19").setAttribute('class', 'disabled');
   listener();
 };
 
@@ -80,6 +81,7 @@ function oneSeventeenPacks() {
   document.getElementById("v1.16").setAttribute('class', 'disabled');
   document.getElementById("v1.17").setAttribute('class', 'open');
   document.getElementById("v1.18").setAttribute('class', 'disabled');
+  document.getElementById("v1.19").setAttribute('class', 'disabled');
   listener();
 };
 
@@ -108,8 +110,23 @@ function oneEighteenPacks() {
   document.getElementById("v1.16").setAttribute('class', 'disabled');
   document.getElementById("v1.17").setAttribute('class', 'disabled');
   document.getElementById("v1.18").setAttribute('class', 'open');
+  document.getElementById("v1.19").setAttribute('class', 'disabled');
   listener();
 };
+
+function oneNineteenPacks() {
+    nineteenContent =
+      '<p>Nothing Yet! 1.19 is still in snapshots!</p>';
+    document.getElementById("middleContent").innerHTML = nineteenContent;
+    document.getElementById("v1.13").setAttribute('class', 'disabled');
+    document.getElementById("v1.14").setAttribute('class', 'disabled');
+    document.getElementById("v1.15").setAttribute('class', 'disabled');
+    document.getElementById("v1.16").setAttribute('class', 'disabled');
+    document.getElementById("v1.17").setAttribute('class', 'disabled');
+    document.getElementById("v1.18").setAttribute('class', 'disabled');
+    document.getElementById("v1.19").setAttribute('class', 'open');
+    listener();
+  };
 
 function listener() {
   var acc = document.getElementsByClassName("accordion");

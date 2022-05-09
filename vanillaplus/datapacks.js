@@ -78,7 +78,7 @@ function oneThirteenPacks() {
   function oneEighteenPacks() {
     eighteenContent =
       `<div class="cards">
-        <div onclick="showInfo('Afk Display+','This Tech Datapack is designed to visually let you know when someone is afk after 2.5 minutes. You can also toggle a message when you go afk.', 'https://bowswa.tk/games/datapacks/downloads/1.18/[1.18.x]Afk Display 1.1.2+.zip')" class="card">
+        <div onclick="showInfo('Afk Display+','This Tech Datapack is designed to visually let you know when someone is afk after 2.5 minutes. You can also toggle a message when you go afk.', 'https://bowswa.tk/vanillaplus/downloads/1.18/[1.18.x]Afk Display 1.1.2+.zip')" class="card">
           <img class='img' src="icons/VT_AD.png">
           <h1 class="title">Afk Display<br><br></h1>
           <p class="version"><b>v1.1.2+</b></p>
@@ -92,10 +92,10 @@ function oneThirteenPacks() {
         </div>
       </div>
       <div class="cards">
-        <div class="card">
+        <div onclick="showInfo('Better Dragon Fight','This Datapack adds a new way to fight the Ender Dragon, along with new weapons and armor sets.', 'https://bowswa.tk/vanillaplus/downloads/1.18/[1.18.x] Better Dragon Fight R1000a.zip')" class="card">
           <img class='img' src="icons/VP_BEF.png">
           <h1 class="title">Better Ender Fight<br><br></h1>
-          <p class="version"><b>COMING SOON!</b></p>
+          <p class="version"><b>v1.0.0</b></p>
         </div>
       </div>
       <div class="cards">

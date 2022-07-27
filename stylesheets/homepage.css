@@ -1,15 +1,146 @@
-.link-box {
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  }
+  
+  .banner{
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    top: 5vh;
+    height: 25vh;
+    z-index: 0;
+    border-radius: 0.5rem;
+  }
+  
+  .youtube{
+    z-index: 9999;
+    width: 38%;
+    height: 44vh;
+    position: relative;
+    top: 34vh;
+    left: 10%;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+  }
+  
+  .buttons{
+    height: 48vh;
+    top: 32vh;
+    position: absolute;
+    right: 10%;
+    width: 38%;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+  }
+  .btn-sec1, .btn-sec2{
+    display: flex;
+  }
+  .button{
+    background: #0F1C32;
+    transition: 0.5s;
+    width: 33.33%;
     height: 20vh;
-    width: 20vh;
-    background-color: #444;
-    color: #99ffff;
-    border-radius: 10px;
-    padding: 1vh;
-}
-
-#bruce {
-    height: 17vh;
-    width: 190vh;
+    margin: 2vh;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    z-index: 1;
+  }
+  .button:hover{
+    background: #055a8f;
+  }
+  .button .icon{
+    font-size: 7vh;
+    color: #4a92bf;
+    margin-top: 3vh;
+  }
+  .button .title{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-bottom: 2vh;
+  }
+  .button .desc{
+    font-size: 0.85rem;
+    color: #fff;
+  }
+  /*MOBILE ADJUSTMENTS*/
+  @media only screen and (max-width: 700px) {
+    .youtube{
+    z-index: 9999;
+    width: 38%;
+    height: 44vh;
+    position: relative;
+    top: 34vh;
+    left: 10%;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+  }
+    
+  .buttons{
+    height: 48vh;
+    top: 32vh;
+    position: absolute;
+    right: 10%;
+    width: 38%;
+    border-radius: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .button{
+    background: #0F1C32;
+    transition: 0.5s;
+    width: 33.33%;
+    height: 20vh;
+    margin: 2vh;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 0.5rem;
+  }
+  .button:hover{
+    background: #055a8f;
+  }
+  .button .icon{
+    font-size: 5vh;
+    color: #4a92bf;
+    margin-top: 3vh;
+  }
+  .button .title{
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 2vh;
+  }
+  .button .desc{
+    font-size: 0.6rem;
+    color: #fff;
+  }
+  }
+  
+  @media only screen and (max-width: 1300px){
+    .button .icon{
+    font-size: 5vh;
+    color: #4a92bf;
     margin-top: 2vh;
-    margin-left: 10vh;
-}
+  }
+    .button .title{
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 2vh;
+  }
+  .button .desc{
+    font-size: 0.6rem;
+    color: #fff;
+  }
+  }

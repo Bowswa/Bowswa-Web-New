@@ -1,25 +1,109 @@
-.footer-image {
-  width: 64px;
-  height: 64px;
-}
-
-#footer-discord {
-  display: inline-block;
-  position: relative;
-}
-
-#ft-dc-hover {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#footer-discord:hover #ft-dc-hover {
-  display: inline;
-}
-
-.socials {
-  height: 50px;
-  width: 50px;
-}
+#footer{
+    background: rgba(255,255,255,0);
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    top: 87vh;
+    left: 0;
+    text-align: center;
+    transition: 0.5s;
+  }
+  #footer a{
+      text-decoration: none;
+    color: #fff;
+  }
+  #footer img{
+    height: 8vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .ping{
+    border:1px solid #202225; 
+    background: #E15353 /*ED4245*/;
+    text-decoration: none;
+    height: 2.5vh;
+    width: 2.5vh;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5vh;
+    left: 6vh;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    transition: 0.2s;
+  }
+  #footer-yt{
+    position: absolute;
+    top: 0;
+    left: 42.5%;
+    transition: 0.5s;
+  }
+  #footer-twitch{
+      position: absolute;
+    top: 0;
+    left: 47.5%;
+    transition: 0.5s;
+  }
+  #footer-twitter{
+      position: absolute;
+    top: 0;
+    left: 52.5%;
+    transition: 0.5s;
+  }
+  #footer-discord{
+      position: absolute;
+    top: 0;
+    left: 57.5%;
+    transition: 0.5s;
+  }
+  
+  #footer-discord:hover .ping {
+      opacity: 1;
+  }
+  #footer-discord:hover,#footer-yt:hover,#footer-twitter:hover,#footer-twitch:hover{
+    filter: brightness(80%);
+  }
+  /*Mobile Optimizations*/
+  @media only screen and (max-width: 1150px) {
+    #footer-yt{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transition: 0.5s;
+  }
+  #footer-twitch{
+      position: absolute;
+    top: 0;
+    left: 42%;
+    transition: 0.5s;
+  }
+  #footer-twitter{
+      position: absolute;
+    top: 0;
+    left: 58%;
+    transition: 0.5s;
+  }
+  #footer-discord{
+      position: absolute;
+    top: 0;
+    left: 75%;
+    transition: 0.5s;
+  }
+    .ping{
+    border:1px solid #202225; 
+    background: #E15353 /*ED4245*/;
+    text-decoration: none;
+    height: 2vh;
+    width: 2vh;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5vh;
+    left: 6vh;
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    transition: 0.2s;
+  }
+  }
